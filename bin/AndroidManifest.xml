@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wos.versionOne"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/signs"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:debuggable="false" >
+        <activity
+            android:name="com.example.db_connect_blog.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.db_connect_blog.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.db_connect_blog.OneActivity"
+            android:label="@string/title_activity_one" >
+        </activity>
+        <activity
+            android:name="com.example.db_connect_blog.TwoActivity"
+            android:label="@string/title_activity_two" >
+        </activity>
+        <activity
+            android:name="com.example.db_connect_blog.TryAgain"
+            android:label="@string/title_activity_try_again" >
+        </activity>
+    </application>
+
+</manifest>
