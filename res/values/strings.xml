@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">World of Signs</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_second">Exit</string>
+    <string name="title_activity_one">Sign Language</string>
+    <string name="textMsg"></string>
+    <string name="title_activity_two">Exit</string>
+    <string name="txt2">Transform your WORDS to ACTIONS</string>
+    <string name="thanksTxt">Thank you for checking out!</string>
+    <string name="title_activity_try_again">TryAgain</string>
+    <string name="thanksTxt1">Thank you for visiting :)</string>
+
+</resources>
